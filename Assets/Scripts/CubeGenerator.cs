@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CubeGenerator : MonoBehaviour
 {
-    public GameObject _cubePrefab; // 生成するキューブのプレハブ
-    public string _inputButton = "Fire1"; // ユーザー入力を検出するボタン名
+    [SerializeField] GameObject _cubePrefab; // 生成するキューブのプレハブ
+    [SerializeField] string _inputButton = "Fire1"; // ユーザー入力を検出するボタン名
 
     private void Update()
     {
