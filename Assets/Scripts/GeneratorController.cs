@@ -41,4 +41,8 @@ public class GeneratorController : MonoBehaviour
             transform.Translate(Vector3.down * descendSpeed * Time.deltaTime);
         }
     }
+    void PositionShown()
+    {
+
+    }
 }
