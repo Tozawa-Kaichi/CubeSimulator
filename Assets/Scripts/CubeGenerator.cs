@@ -16,7 +16,7 @@ public class CubeGenerator : MonoBehaviour
     {
         _cubeRenderer = _cubePrefab.GetComponent<Renderer>();
         _propertyBlock = new MaterialPropertyBlock();
-        SetOutlineVisible(false);
+        SetOutlineVisible(true);
     }
 
     private void Update()
