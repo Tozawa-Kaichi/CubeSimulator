@@ -155,6 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cubePrefab: {fileID: 4439801958423368943, guid: a85a04728eb76624ba5e4d8b9affac8d, type: 3}
   _inputButton: Fire1
+  _previewMaterial: {fileID: 2100000, guid: 624b8d568fcf1524888acb729b2cd81b, type: 2}
 --- !u!4 &822993396
 Transform:
   m_ObjectHideFlags: 0
